@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inputEl{
+    @apply border p-2 border-red-900 ;
+}
+.btnEl{
+    @apply my-3 bg-blue-500 p-3 rounded-xl text-lg font-semibold font-sans;
+}
